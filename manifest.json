@@ -4,7 +4,7 @@
   "description": "Chrome extension for adding items to a gifthaven registry",
   "version": "1.0",
   "action": {
-    "default_popup": "popup_content.html",
-    "default_icon": "extension_icon.png"
+    "default_popup": "login_interface/popup_login.html",
+    "default_icon": "images/extension_icon.png"
   }
 }
