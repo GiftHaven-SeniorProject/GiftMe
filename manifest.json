@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "GiftHaven",
-  "description": "Chrome extension for adding items to a gifthaven registry",
+  "name": "GiftMe",
+  "description": "Chrome extension for GiftMe site",
   "version": "1.0",
   "action": {
-    "default_popup": "login_interface/popup_login.html",
+    "default_popup": "login_interface/login.html",
     "default_icon": "images/extension_icon.png"
   }
 }

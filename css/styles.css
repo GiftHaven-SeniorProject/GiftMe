@@ -1,6 +1,5 @@
 body {
     padding: 0;
-
 }
 
 form {
@@ -26,4 +25,13 @@ button {
     text-align: center;
     padding: 10px;
     margin-top: 10%;
+}
+
+.btn-usergifts button {
+    padding: 10px 24px; /* Some padding */
+    column-gap: 10px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: fit-content;
+    
 }
