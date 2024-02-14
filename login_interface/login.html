@@ -8,13 +8,16 @@
   <body>
     <h1>GiftMe</h1>
 	    <h3>Log in</h3>  
-      <form action="https://your-server.com/oauth/authorize?response_type=code&client_id={TestClient}&redirect_uri=
+      <!--TO DO: may need to fix the callback url of extension-->
+      <form action="https://staging2.christophero75.sg-host.com/oauth/authorize?response_type=code&client_id={qPhrOYDqVLwSPYzPPPqvVZ3mrHMiVylkPc99O5XS}&redirect_uri=
       {https://chrome-extension://eanihbgidahigoepbohpbpeeehccnklf/oauth_callback}" method="post">
         <input type="email" name="email" id="email" placeholder="Email Address" required>
         <input type="password" name="password" id="password" placeholder="Password" required>
-            <!--Update the URL later-->
+        
+        <!--Forget Password/Don't have an account hyperlinks, Update the URL later-->
         <p><a href="http://staging2.christophero75.sg-host.com/my-account/?nmgr-notice=login-to-access&nmgr-redirect=/my-gift-lists/home/&nmgr-type=gift-registry" target="_blank">Forget Password?</a></p>
         <p><a href="http://staging2.christophero75.sg-host.com/my-account/?nmgr-notice=login-to-access&nmgr-redirect=/my-gift-lists/home/&nmgr-type=gift-registry" target="_blank">Don't have an account?</a></p>
+        
         <!--Login button-->
         <input type="submit" value="Log In" \>
         <!--<button type="button" onclick="login_creds()" id="SigninButton">Sign In</button>-->
