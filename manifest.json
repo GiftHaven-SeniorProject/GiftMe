@@ -3,6 +3,10 @@
   "name": "GiftMe",
   "description": "Chrome extension for GiftMe site",
   "version": "1.0",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwsZJ69+rv4DpCT5cZdqjEhM3+BnBwx7lVvbSc2lZ5t3/XaKKai+zlFkDW0l0scbMAmdJN2cHNWe0fBHR6DM0RK4BmGNLCEe9ER3sEksNCjaWY5HzOX4o17RZlqv51DXSXDmA6QqS3VSUomU9GvbvE+1fB+aIqcF9TFtBxZCBdVcWab5+39ftscr5Aj+J36pu719SivW7wMF6MbK6sBWV4mY+PvBrgFyCyoWergl0fTutmDs85vtMZVGmALMBdLe9+H4T89dDQhmX+VKtl8lm8QoE3FZngshE1qMSkZ9Q5f39ztRr+pCqbgEH4SvqX3bSzj6x1vZDNNqSFseJfP83rQIDAQAB",
+  "permissions": [
+    "identity"
+  ],
   "action": {
     "default_popup": "login_interface/login.html",
     "default_icon": "images/extension_icon.png"
