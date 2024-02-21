@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+#password {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 100%;
+    font-weight: bold;
+    color: black;
+    background-color: #50C878;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.btn-usergifts button {
+    padding: 10px 24px; /* Some padding */
+    column-gap: 10px;
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: fit-content;
+    
+}
