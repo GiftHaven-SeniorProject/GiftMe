@@ -4,7 +4,7 @@ body {
 }
 
 form {
-       width: 300px;
+       width: 250px;
        height: 200px;
        margin: 20px auto;
        padding: 20px;
@@ -12,6 +12,17 @@ form {
        border-radius: 10px;
        text-align: center;
        background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
 }
 
 #password {
