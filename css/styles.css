@@ -1,6 +1,6 @@
 body {
     padding: 0px;
-    background-color: #80c266;
+    background-color: #FAEBD7;
 }
 
 form {
@@ -33,7 +33,7 @@ button {
     font-size: 100%;
     font-weight: bold;
     color: black;
-    background-color: #50C878;
+    background-color: #FF7F50;
     border-radius: 5px;
     border: none;
     text-align: center;
@@ -42,10 +42,10 @@ button {
 }
 
 .btn-usergifts button {
-    padding: 10px 24px; /* Some padding */
+    padding: 10px 15px; /* Some padding */
     column-gap: 10px;
     cursor: pointer; /* Pointer/hand icon */
-    float: left; /* Float the buttons side by side */
+    float: center; /* Float the buttons side by side */
     width: fit-content;
     
 }
